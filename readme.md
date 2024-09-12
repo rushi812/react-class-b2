@@ -1,18 +1,7 @@
-# Redux Toolkit
+# Steps to push your local project to Git
 
-1. Create a redux store (createStore)
-2. Connect the store with React app using "Provider" component
-3. Create a slice (createSlice)
-
-- name
-- initialState
-- reducers => action with reducer function
-
-4. Export actions and reducer from slice
-5. Add slice to the store reducer
-6. Subscribe to the slice using useSelector hook
-
-// github
-// deploy the project to versel/netlify
-// linkedin
-// resume
+1. git init
+2. git add .
+3. git commit -m "commit message"
+4. git remote add origin {{git hub repo link}}
+5. git push origin main
